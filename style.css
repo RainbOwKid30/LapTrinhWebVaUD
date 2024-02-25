@@ -1,0 +1,43 @@
+body{
+    margin: 0;padding: 0;
+    background: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat top left;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.box-menu{
+    background-color: #ffffff;
+    text-align: center;
+}
+.box-menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+/* dùng để căng chỉnh  */
+.box-menu ul li{
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.box-menu ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.active,.box-menu ul li:hover{
+    background-color:aquamarine;
+    border-radius: 3px;
+}
+
+.box-menu .fa{
+    margin-right: 5px;
+}
+
