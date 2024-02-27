@@ -3,27 +3,25 @@ body{
     background: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat top left;
     background-size: cover;
     font-family: sans-serif;
+  
+}
+/* atraction */
+.container{
+    width: 1100px;
+    background-color: #D2D2D2;
+    min-height: 100vh;/*độ cao bé nhất 100%*/
+    margin: 0px auto;
+}
+.box-parrent{
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+    font-size: 20px;
 
-    /* atraction */
-    .container{
-        width: 1100px;
-        background-color: #D2D2D2;
-        min-height: 100vh;/*độ cao bé nhất 100%*/
-        margin: 0px auto;
-    }
-    .box-parrent{
-        width: 1100px;
-        margin: 0px auto;
-        position: relative;
-        font-size: 20px;
-
-    }
-    .wp-caption-text{
-        text-align: center;
-        font-size: 25px;
-    }
-
-    
+}
+.wp-caption-text{
+    text-align: center;
+    font-size: 25px;
 }
 
 *{
@@ -77,8 +75,41 @@ body{
     width: 1000px;
     font-family: 'Times New Roman', 'Arial';
     text-align: center;
-    
-    
+    /*căng chứ ở giữa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* festival */
+
+.container1{
+    width: 1100px;
+    background-color: #D2D2D2;
+    min-height: 100vh;/*độ cao bé nhất 100%*/
+    margin: 0px auto;
+    
+}
+.box-parrent1{
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+    font-size: 20px;
+}
+.box-parrent1 h1{
+    text-align: center;
+
+}
+.image-wrapper{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box-parrent1 p{
+    justify-content: center; /* căng giữa theo chiều ngang */
+    font-size: 25px;
+    font-family: 'Times New Roman', 'Arial';
+}
 
