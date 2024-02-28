@@ -2,7 +2,9 @@ body{
     margin: 0;padding: 0;
     background: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat top left;
     background-size: cover;
+    background-position: center;
     font-family: sans-serif;
+    
   
 }
 /* atraction */
@@ -25,14 +27,18 @@ body{
 }
 
 *{
+
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    
 }
+
 
 .box-menu{
     background-color: #ffffff;
     text-align: center;
+    margin: 0;padding: 0;
 }
 .box-menu ul{
     display: inline-flex;
@@ -64,21 +70,25 @@ body{
 }
 
 .shadow-text{
-    font-size: 30px;
+    font-size: 36px;
+    font-family: 'Times New Roman', 'Arial';
     width: 1000px;
-    background-color: #ffffff;
     min-height: 50vh;/*độ cao bé nhất 100%*/
     margin: 200px auto;
-    box-shadow: 0px 0px 5px 5px #ffffff;
-    height: 50px;
     line-height: 50px;
-    width: 1000px;
-    font-family: 'Times New Roman', 'Arial';
     text-align: center;
+    color: #ffffff;
+    padding: 30px 40px;
     /*căng chứ ở giữa*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    
 }
 /* festival */
 
@@ -112,4 +122,126 @@ img{
     font-size: 25px;
     font-family: 'Times New Roman', 'Arial';
 }
+/* contact */
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contact1 form {
+    width: 800px;
+    padding: 30px 40px;
+    line-height: 50px;
+    text-align: center;    
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
 
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.input-field.error .item{
+    border: 2px solid #ff0000;
+}
+
+.input-box .input-field{
+    width: 48.5%;
+
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.field.error .item{
+    border: 2px solid #ff0303;
+}
+
+
+.field .item::placeholder {
+    color: rgb(225, 214, 214);
+}
+
+.input-field .error-txt{
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.input-field.error .error-txt{
+    display: block;
+}
+
+.input-field .item::placeholder {
+    color: rgb(225, 214, 214);
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt{
+    margin-top: -20px;
+}
+
+.textarea-field .error-txt{
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.textarea-field.error .error-txt{
+    display: block;
+}
+
+
+
+form button {
+    color: #ffffff;
+    padding:  12px 12px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: none;
+}
