@@ -27,7 +27,6 @@ body{
 }
 
 *{
-
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -66,7 +65,7 @@ body{
 }
 
 .box-menu .fa{
-    margin-right: 5px;
+    margin-right: 1px;
 }
 
 .shadow-text{
@@ -139,6 +138,23 @@ img{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     border: 3px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+}
+
+.contact1 form img{
+    width: 60px;
+    padding: 2px;   
+    border-radius: 25px;
+    float:inline-start;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: .5s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(43, 79, 224, 0.962);
+}
+
+form img:hover{
+    box-shadow: none;
 }
 
 form .input-box {
@@ -245,3 +261,4 @@ form button {
 form button:hover {
     box-shadow: none;
 }
+
