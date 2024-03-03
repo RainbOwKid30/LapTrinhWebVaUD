@@ -4,22 +4,22 @@ body{
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    
-  
 }
+
 /* atraction */
 .container{
     width: 1100px;
     background-color: #D2D2D2;
     min-height: 100vh;/*độ cao bé nhất 100%*/
     margin: 0px auto;
+    border-radius: 20px;
 }
 .box-parrent{
     width: 1100px;
     margin: 0px auto;
     position: relative;
     font-size: 20px;
-
+    
 }
 .wp-caption-text{
     text-align: center;
@@ -33,11 +33,15 @@ body{
     
 }
 
-
 .box-menu{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     text-align: center;
     margin: 0;padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid #000000;
+    padding: 10px 0px;
 }
 .box-menu ul{
     display: inline-flex;
@@ -54,9 +58,10 @@ body{
 }
 
 .box-menu ul li a{
-    color:black;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     font-size:x-large;
+    text-transform: uppercase;
 }
 
 .active,.box-menu ul li:hover{
@@ -72,13 +77,9 @@ body{
     font-size: 36px;
     font-family: 'Times New Roman', 'Arial';
     width: 1000px;
-    min-height: 50vh;/*độ cao bé nhất 100%*/
     margin: 200px auto;
-    line-height: 50px;
-    text-align: center;
     color: #ffffff;
-    padding: 30px 40px;
-    /*căng chứ ở giữa*/
+    /*căng rgb(3, 2, 2)iữa*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,8 +88,11 @@ body{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+    min-height: 50vh;/*độ cao bé nhất 100%*/
+    line-height: 50px;
     
 }
+
 /* festival */
 
 .container1{
@@ -96,6 +100,7 @@ body{
     background-color: #D2D2D2;
     min-height: 100vh;/*độ cao bé nhất 100%*/
     margin: 0px auto;
+    border-radius: 20px;
     
 }
 .box-parrent1{
@@ -129,7 +134,7 @@ img{
     min-height: 100vh;
 }
 .contact1 form {
-    width: 800px;
+    width: 1100px;
     padding: 30px 40px;
     line-height: 50px;
     text-align: center;    
@@ -145,12 +150,12 @@ img{
     padding: 2px;   
     border-radius: 25px;
     float:inline-start;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(72, 109, 243);
     transition: .5s;
     outline: none;
     border: none;
     cursor: pointer;
-    background: rgba(43, 79, 224, 0.962);
+    background: rgba(34, 47, 99, 0.962);
 }
 
 form img:hover{
@@ -251,10 +256,10 @@ form button {
     border-radius: 6px;
     box-shadow: 0 0 10px black;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing:2px;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 5px;
     transition: .5s;
 }
 
