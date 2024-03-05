@@ -1,12 +1,13 @@
 body{
     margin: 0;padding: 0;
-    background: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat top left;
+    background: url(https://images.pexels.com/photos/941195/pexels-photo-941195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat left;
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* atraction */
+
 .container{
     width: 1100px;
     background-color: #D2D2D2;
